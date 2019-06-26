@@ -23,6 +23,7 @@
 
  section {
      padding: 108px 0;
+     color: white;
  }
 
  .btn{
@@ -35,7 +36,7 @@
  text-align: center;
  text-decoration: none;
  cursor: pointer;
- background-color: #feca57;
+ background-color: #f6b93b;
  background-position: 100% 0;
  background-size: 300%;
  color: white;
@@ -100,4 +101,10 @@ text-decoration: none;
 color: white;
 text-transform: uppercase;
 font-size:  20px;
+ }
+
+ /* Services*/
+
+ .services{
+color: black;
  }
