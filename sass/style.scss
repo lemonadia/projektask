@@ -67,9 +67,37 @@
 .welcome{
     font-size: 45px;
     font-style: italic;
-
 }
 .title-nice{
     text-transform: uppercase;
     font-size: 60px;
+    margin-top: -25px;
 }
+
+.navigation {
+  padding: 40px 150px;
+  text-align: right;
+
+}
+
+
+.navigation ul{
+ list-style-type: none;
+ padding: 0;
+ margin: 0;
+}
+
+
+.navigation ul li{
+ display: inline-block;
+ margin: 0 36px 0 0;
+ position: relative;
+}
+
+
+.navigation a{
+text-decoration: none;
+color: white;
+text-transform: uppercase;
+font-size:  20px;
+ }
