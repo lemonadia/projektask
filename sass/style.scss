@@ -144,17 +144,19 @@ color: black;
    font-family: 'Amiri', serif;
  }
 
- .services-title{
+  .services-title{
    font-size: 30px;
    margin-bottom: -10px;
  }
 
 
 /*Portfolio*/
+
 .portfolio{
   background-color: #CAD3C8;
 
 }
+
 .portfolio-title{
  color: black;
  text-transform: uppercase;
@@ -169,20 +171,24 @@ font-size: 15px;
 opacity: 0.6;
 }
 
-
 .portfolio-box{
   flex: 0 0 33.333%;
   padding: 20px 30px;
 }
 
 .portfolio-flex{
-  margin-top: 50px;
   display: flex;
   flex-wrap: wrap;
  justify-content: space-between;
 }
 
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
 
+}
 
 /*Footer*/
 
