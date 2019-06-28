@@ -17,7 +17,8 @@
     "build-dev:sass": "node-sass --output-style expanded --source-map true -o css sass",
     "watch": "npm-run-all build-dev test -p watch:*",
     "watch:browsersync": "browser-sync start --server --files \"css/*.css\" \"*.html\"",
-    "watch:sassprefixer": "onchange sass/*.scss -- npm run build-dev"
+    "watch:sassprefixer": "onchange sass/*.scss -- npm run build-dev",
+    "watch:html": "onchange *.html -- npm run test"
   },
   "keywords": [],
   "author": "",

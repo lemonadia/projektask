@@ -144,7 +144,7 @@ section {
 
 /*Portfolio*/
 .portfolio {
-  background-color: #CAD3C8;
+  background-color: pink;
 }
 
 .portfolio-title {
@@ -160,28 +160,31 @@ section {
   opacity: 0.6;
 }
 
-.portfolio-box {
-  -ms-flex: 0 0 33.333%;
-      flex: 0 0 33.333%;
-  padding: 20px 30px;
+.portfolio h3 {
+  color: black;
 }
 
-.portfolio-flex {
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -ms-flex-pack: justify;
-      justify-content: space-between;
+.portfolio ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
-.wrapper {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: (1fr)[3];
-      grid-template-columns: repeat(3, 1fr);
-  grid-gap: 10px;
-  grid-auto-rows: minmax(100px, auto);
+.portfolio ul li {
+  position: relative;
+}
+
+.portfolio-gallery img {
+  float: left;
+  width: 33.33%;
+  height: 300px;
+}
+
+.row::before,
+.row::after {
+  clear: both;
+  content: "";
+  display: table;
 }
 
 /*Footer*/
